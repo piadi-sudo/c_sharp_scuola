@@ -1,4 +1,4 @@
-﻿
+
 namespace ProgettoEdicola
 {
     internal class Program
@@ -69,11 +69,11 @@ namespace ProgettoEdicola
                     Console.WriteLine("**Il negozio dispone dei seguenti articoli**");
                     Console.WriteLine($"{"Codice",PAR_AL}{"Nome",PAR_AL}{"Quantità",PAR_AL}{"Prezzo",PAR_AL}");
                     if (qtnPenneMagazzino > 0)
-                        Console.WriteLine($"{CODICE_PENNE,PAR_AL}{"Penna",PAR_AL}{qtnPenneMagazzino,PAR_AL}{PREZZO_PENNE}");
+                        Console.WriteLine($"{CODICE_PENNE,PAR_AL}{"Penna",PAR_AL}{qtnPenneMagazzino,PAR_AL}{PREZZO_PENNE:C}");
                     if (qtnQuaderniMagazzino > 0)
-                        Console.WriteLine($"{CODICE_QUADERNI,PAR_AL}{"Quaderno",PAR_AL}{qtnQuaderniMagazzino,PAR_AL}{PREZZO_QUADERNI}");
+                        Console.WriteLine($"{CODICE_QUADERNI,PAR_AL}{"Quaderno",PAR_AL}{qtnQuaderniMagazzino,PAR_AL}{PREZZO_QUADERNI:C}");
                     if (qtnAstucciMagazzino > 0)
-                    Console.WriteLine($"{CODICE_ASTUCCI,PAR_AL}{"Astuccio",PAR_AL}{qtnAstucciMagazzino,PAR_AL}{PREZZO_ASTUCCIO}");
+                    Console.WriteLine($"{CODICE_ASTUCCI,PAR_AL}{"Astuccio",PAR_AL}{qtnAstucciMagazzino,PAR_AL}{PREZZO_ASTUCCIO:C}");
 
                 }
                 else
